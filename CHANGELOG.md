@@ -1,0 +1,11 @@
+## 1.0.0 (2026-11-19)
+- First release of Dial-note: a plain, simple text editor, just like the Notepad that came with Windows 10.
+- Same menus and shortcuts as Notepad: New, New Window, Open, Save, Save As, Page Setup, Print, Undo, Cut, Copy, Paste, Delete, Search with Bing, Find, Find Next, Find Previous, Replace, Go To, Select All, Time/Date, Word Wrap, Font, Zoom and Status Bar.
+- Reads and writes ANSI, UTF-8, UTF-8 with BOM, UTF-16 LE and UTF-16 BE, and keeps Windows (CRLF), Unix (LF) and old Mac (CR) line endings as they were. The status bar shows which.
+- Find and Replace with Match case, Wrap around and Up/Down; Replace All can be undone in one step.
+- Ctrl + mouse wheel zooms, Ctrl+Backspace deletes the word before the cursor, and files can be dragged onto the window.
+- The .LOG trick works: a file that starts with .LOG gets the time and date added at the end each time it's opened.
+- Prints with a header and footer (&f file name, &p page number, &d date, &t time), on any paper size and margins.
+- Every menu item explains itself in the status bar while you point at it, and every box has detailed tooltips.
+- Remembers its window size, font, Word Wrap and Status Bar between sessions; every setting takes effect immediately.
+- Keeps itself up to date (Help > Check for Updates), and comes as an installer or a single portable EXE.
